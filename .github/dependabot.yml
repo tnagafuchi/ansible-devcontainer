@@ -1,0 +1,86 @@
+---
+version: 2
+updates:
+  - package-ecosystem: docker
+    directory: /.devcontainer/
+    schedule:
+      interval: weekly
+    target-branch: master
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: /.devcontainer/
+    schedule:
+      interval: weekly
+    target-branch: v2.8
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: /.devcontainer/
+    schedule:
+      interval: weekly
+    target-branch: v2.9
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: /.devcontainer/
+    schedule:
+      interval: weekly
+    target-branch: v2.10
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: master
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: v2.8
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: v2.9
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: v2.10
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: master
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: v2.8
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: v2.9
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: v2.10
+    open-pull-requests-limit: 10
