@@ -32,7 +32,7 @@ jobs:
 
       - name: Run tests
         run: |
-          if [ -f .devcontainer/docker-compose.test.yml ]; then
+          if [ -f ".devcontainer/docker-compose.test.yml" ]; then
             docker-compose --file .devcontainer/docker-compose.test.yml build
             docker-compose --file .devcontainer/docker-compose.test.yml run sut
           else
